@@ -1,0 +1,22 @@
+.col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 1em;
+}
+.col1 {
+    flex: 1 ;
+    width: 100%;
+    padding-left: 1em;
+}
+.si {
+  width: 400px;
+  height: 300px;
+}
+
+
+@media (max-width:900px){
+    .col {
+        display: flex;
+        flex-direction: column;
+       }
+}

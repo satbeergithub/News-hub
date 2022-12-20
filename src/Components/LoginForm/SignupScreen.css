@@ -1,0 +1,64 @@
+.signupscreen{
+   max-width: 22em;
+    position: absolute;
+    top: 50%;
+    left:0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+     background-color: #fff;
+     border-radius: 1em; 
+     text-align: center;
+}
+
+img[alt='ri']{
+    width: 40%;
+    padding-top: 1em;
+}
+.signupscreen h2 {
+    color: #7059b3;
+    font-weight: 500;
+    font-size: 1.35em;
+}
+.new {
+    display: flex;
+    justify-content: space-around;
+    color: #7059b3;
+    font-size: 1em;
+    font-weight: 500;
+}
+.new span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input,button {
+    border: none;
+    padding: 1em 1em;
+    margin: 1.5em; 
+}
+form input {
+    border: 0.2em solid #E7E9EB;
+    border-radius: 0.5em; 
+}
+form button {
+     background-color: #7059b3;
+     color: whitesmoke;
+     font-weight: 600;
+     letter-spacing: 0.2em;
+     border-radius: 0.5em; 
+     margin-bottom: 2em; 
+}
+form button:hover {
+    
+    background-color:  rgb(67, 0, 108);
+    cursor: pointer;
+}
+  
+body {
+    background: linear-gradient(0deg, whitesmoke,#7059b3 80%) fixed no-repeat
+}
+/* linear-gradient(left,#7059b3,blue) */
